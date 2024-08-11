@@ -1,0 +1,64 @@
+body{
+background-color: gainsboro;
+display: flex;
+padding: 0%;
+margin: 0%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.form_div{
+
+background-color: pink;
+height: 50vh;
+width: 70vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+.contact_form label{
+    margin-bottom: 5px;
+}
+.contact_form input{
+    margin-bottom: 5px;
+}
+.input_field{
+
+width: 60px;
+height:20px;
+background-color: gainsboro;
+border: 2px solid black;
+border-radius: 3px;
+text-decoration: none;
+color: black;
+}
+
+.contact_list{
+
+    background-color: pink;
+    height: 50vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+table, th, td {
+    border: 1px solid black;
+  }
+  table{
+
+width: 95%;
+
+  }
